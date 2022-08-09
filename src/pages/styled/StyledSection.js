@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { keyframes } from 'styled-components';
-import knowledge from '../../assets/knowledge-bg.png';
+import styled from "styled-components";
+import { keyframes } from "styled-components";
+import knowledge from "../../assets/knowledge-bg.png";
 
 
 export const StyledContainer = styled.div`

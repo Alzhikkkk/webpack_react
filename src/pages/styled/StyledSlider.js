@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledSlider = styled.div`
      display:flex;
@@ -49,5 +49,5 @@ export const Button = styled.button`
     padding: 10px 0;
     margin-top: 20px;
     border: 1px solid transparent;
-`
+`;
 

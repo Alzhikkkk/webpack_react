@@ -8,8 +8,8 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "NODE_ENV='production' webpack --config webpack.config.js",
     "watch": "webpack --watch",
-    "lint": "eslint ./src/pages/components/*.js",
-    "lint:fix": "eslint ./src/pages/components/*.js --fix"
+    "lint": "eslint ./src/pages/**/*.js",
+    "lint:fix": "eslint ./src/pages/**/*.js --fix"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.10",
@@ -56,7 +56,7 @@
     }
   },
   "lint-staged": {
-    "./src/pages/components/*.js": [
+    "./src/pages/**/*.js": [
       "npm run lint:fix",
       "git add"
     ]

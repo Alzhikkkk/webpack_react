@@ -6,12 +6,9 @@ function Header() {
 	return (
 		<StyledHeader className="header">
 			<Nav />
-			<Slider/>
+			<Slider />
 		</StyledHeader>
 	);
 }
 
- 
-
-  
 export default Header;

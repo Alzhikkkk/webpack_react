@@ -1,17 +1,14 @@
-import Main from "./pages/main";
-
-
-import * as React from "react";
-import GlobalStyles from "./pages/styled/Global";
+import React from 'react';
+import Main from './pages/main';
+import GlobalStyles from './pages/styled/Global';
 // import './style/all.css';
 
 function App() {
   return (
-      <div className="page">
-          <GlobalStyles/>
-          <Main/>
-      </div>
-
+    <div className="page">
+      <GlobalStyles />
+      <Main />
+    </div>
   );
 }
 
